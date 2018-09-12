@@ -56,9 +56,12 @@
   <ItemGroup>
     <Compile Include="Actions\Click.cs" />
     <Compile Include="Actions\Enter.cs" />
+    <Compile Include="Actions\WaitUntil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tasks\EmployeeForm.cs" />
     <Compile Include="Tasks\Login.cs" />
     <Compile Include="Test.cs" />
+    <Compile Include="UI\EmployeeUI.cs" />
     <Compile Include="UI\LoginScreen.cs" />
   </ItemGroup>
   <ItemGroup>

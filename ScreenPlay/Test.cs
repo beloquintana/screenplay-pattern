@@ -26,8 +26,15 @@ namespace ScreenPlay
         [Test]
         public void SuccessfulLogin()
         {
+            Login.As(Driver,"admin","admin123");
+            Assert.IsTrue(EmployeeForm.IsPresent(Driver));
+        }
 
-            //Login.As("");
+        [TearDown]
+        public void TearDown()
+        {
+            if (Driver != null)
+                Driver.Quit();
         }
     }
 }
