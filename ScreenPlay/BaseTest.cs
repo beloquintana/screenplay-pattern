@@ -1,7 +1,6 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using ScreenPlay.Tasks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,28 +9,20 @@ using System.Threading.Tasks;
 
 namespace ScreenPlay
 {
-    [TestFixture]
-    public class LoginTest
+    public class BaseTest
     {
-        private IWebDriver Driver;
-        private string Url = "http://verstandqa.com/ejercicios/";
+        protected IWebDriver Driver;
+        protected string Url = "http://verstandqa.com/ejercicios/";
 
         [SetUp]
-        public void SetUp()
+        public void SetUpBase()
         {
             Driver = new ChromeDriver();
             Driver.Navigate().GoToUrl(Url);
         }
 
-        [Test]
-        public void SuccessfulLogin()
-        {
-            Login.As(Driver,"admin","admin123");
-            Assert.IsTrue(EmployeeForm.IsPresent(Driver));
-        }
-
         [TearDown]
-        public void TearDown()
+        public void TearDownBase()
         {
             if (Driver != null)
                 Driver.Quit();
