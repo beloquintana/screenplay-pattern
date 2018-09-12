@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ScreenPlay
+namespace ScreenPlay.Test
 {
     [TestFixture]
     public class LoginTest : BaseTest

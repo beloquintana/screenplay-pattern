@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ScreenPlay
+namespace ScreenPlay.Test
 {
     public class BaseTest
     {
