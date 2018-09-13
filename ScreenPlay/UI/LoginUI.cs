@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ScreenPlay.UI
 {
-    class LoginScreen
+    class LoginUI
     {
         public static By UserInput = By.Id("user");
         public static By PassWordInput = By.Id("pass");

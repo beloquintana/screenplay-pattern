@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace ScreenPlay.Tasks
 {
-    public class EmployeeForm
+    public class IsPresentEmployee
     {
-        public static bool IsPresent(IWebDriver driver)
+        public static bool Form(IWebDriver driver)
         {
             return WaitUntil.ElementIsPresent(driver,EmployeeUI.Form);
         }

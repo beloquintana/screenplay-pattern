@@ -20,9 +20,10 @@ namespace ScreenPlay.Test
         }
 
         [Test]
-        public void AddEmployee()
+        public void AddEmployeeTest()
         {
-            
+            AddEmployee.WithTheData(Driver, "Juan", "juan@gmail.com","MTV","598752022");
+            Assert.IsTrue(AcceptAlert.Success(Driver));
         }        
     }
 }

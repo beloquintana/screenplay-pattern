@@ -17,7 +17,7 @@ namespace ScreenPlay.Test
         public void SuccessfulLogin()
         {
             Login.As(Driver,"admin","admin123");
-            Assert.IsTrue(EmployeeForm.IsPresent(Driver));
+            Assert.IsTrue(IsPresentEmployee.Form(Driver));
         }
     }
 }

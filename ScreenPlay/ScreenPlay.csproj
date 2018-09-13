@@ -57,14 +57,17 @@
     <Compile Include="Actions\Click.cs" />
     <Compile Include="Actions\Enter.cs" />
     <Compile Include="Actions\WaitUntil.cs" />
+    <Compile Include="Actions\Accept.cs" />
+    <Compile Include="Tasks\AcceptAlert.cs" />
+    <Compile Include="Tasks\AddEmployee.cs" />
     <Compile Include="Test\BaseTest.cs" />
     <Compile Include="Test\EmployeeTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tasks\EmployeeForm.cs" />
+    <Compile Include="Tasks\IsPresentEmployee.cs" />
     <Compile Include="Tasks\Login.cs" />
     <Compile Include="Test\LoginTest.cs" />
     <Compile Include="UI\EmployeeUI.cs" />
-    <Compile Include="UI\LoginScreen.cs" />
+    <Compile Include="UI\LoginUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

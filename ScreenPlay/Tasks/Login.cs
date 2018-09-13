@@ -13,9 +13,9 @@ namespace ScreenPlay.Tasks
     {
         public static void As(IWebDriver driver, string user, string passWord)
         {
-            Enter.Text(driver, LoginScreen.UserInput, user);
-            Enter.Text(driver, LoginScreen.PassWordInput, passWord);
-            Click.On(driver, LoginScreen.LoginButton);
+            Enter.Text(driver, LoginUI.UserInput, user);
+            Enter.Text(driver, LoginUI.PassWordInput, passWord);
+            Click.On(driver, LoginUI.LoginButton);
         }
     }
 }
