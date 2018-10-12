@@ -63,7 +63,7 @@
     <Compile Include="Test\BaseTest.cs" />
     <Compile Include="Test\EmployeeTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tasks\IsPresentEmployee.cs" />
+    <Compile Include="Tasks\IsEmployeePresent.cs" />
     <Compile Include="Tasks\Login.cs" />
     <Compile Include="Test\LoginTest.cs" />
     <Compile Include="UI\EmployeeUI.cs" />

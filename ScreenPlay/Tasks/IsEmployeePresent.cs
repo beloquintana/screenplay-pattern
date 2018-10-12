@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace ScreenPlay.Tasks
 {
-    public class IsPresentEmployee
+    public class IsEmployeePresent
     {
         public static bool Form(IWebDriver driver)
         {
