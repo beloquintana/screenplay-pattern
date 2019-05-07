@@ -60,6 +60,8 @@
     <Compile Include="Actions\Accept.cs" />
     <Compile Include="Tasks\AcceptAlert.cs" />
     <Compile Include="Tasks\AddEmployee.cs" />
+    <Compile Include="Tasks\IsEmployeeSuccessMessagePresent.cs" />
+    <Compile Include="Tasks\IsLoginElementPresent.cs" />
     <Compile Include="Test\BaseTest.cs" />
     <Compile Include="Test\EmployeeTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

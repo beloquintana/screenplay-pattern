@@ -11,6 +11,8 @@ namespace ScreenPlay.UI
     {
         public static By UserInput = By.Id("user");
         public static By PassWordInput = By.Id("pass");
+        public static By ErrorMessage = By.Name("errorMessage");
+        
         public static By LoginButton = By.Id("loginButton");
     }
 }

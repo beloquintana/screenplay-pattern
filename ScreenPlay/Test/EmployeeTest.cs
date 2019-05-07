@@ -22,8 +22,8 @@ namespace ScreenPlay.Test
         [Test]
         public void AddEmployeeTest()
         {
-            AddEmployee.WithTheData(Driver, "Juan", "juan@gmail.com","MTV","598752022");
-            Assert.IsTrue(AcceptAlert.Success(Driver));
+            AddEmployee.WithTheData(Driver, "Juan", "juan@gmail.com", "MTV", "598752022", "MTV", "Uruguay", "11600");
+            Assert.IsTrue(IsEmployeeSuccessMessagePresent.Do(Driver));
         }        
     }
 }

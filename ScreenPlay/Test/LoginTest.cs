@@ -19,5 +19,12 @@ namespace ScreenPlay.Test
             Login.As(Driver,"admin","admin123");
             Assert.IsTrue(IsEmployeePresent.Form(Driver));
         }
+
+        [Test]
+        public void LoginWithBadCredentials()
+        {
+            Login.As(Driver, "admin", "admin");
+            Assert.IsTrue(IsLoginElementPresent.ErrorMessage(Driver));
+        }
     }
 }
