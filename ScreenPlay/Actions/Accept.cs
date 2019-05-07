@@ -17,10 +17,9 @@ namespace ScreenPlay.Actions
                 return true;
             }
             catch (NoAlertPresentException)
-            {                
-            }
-
-            return false;
+            {
+                return false;
+            }            
         }
     }
 }
