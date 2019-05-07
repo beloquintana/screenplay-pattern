@@ -23,7 +23,7 @@ namespace ScreenPlay.Test
         public void AddEmployeeTest()
         {
             AddEmployee.WithTheData(Driver, "Juan", "juan@gmail.com", "MTV", "598752022", "MTV", "Uruguay", "11600");
-            Assert.IsTrue(IsEmployeeSuccessMessagePresent.Do(Driver));
+            Assert.IsTrue(IsEmployeePresent.SuccessMessage(Driver));
         }        
     }
 }

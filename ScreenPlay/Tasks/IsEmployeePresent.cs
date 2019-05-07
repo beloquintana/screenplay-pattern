@@ -16,5 +16,10 @@ namespace ScreenPlay.Tasks
         {
             return WaitUntil.ElementIsPresent(driver,EmployeeUI.Form);
         }
+
+        public static bool SuccessMessage(IWebDriver driver)
+        {
+            return WaitUntil.ElementIsPresent(driver, EmployeeUI.SuccessMessage);
+        }
     }
 }
