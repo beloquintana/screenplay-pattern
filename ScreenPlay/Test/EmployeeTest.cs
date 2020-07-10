@@ -1,12 +1,5 @@
 ﻿using NUnit.Framework;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
 using ScreenPlay.Tasks;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ScreenPlay.Test
 {
@@ -22,8 +15,8 @@ namespace ScreenPlay.Test
         [Test]
         public void AddEmployeeTest()
         {
-            AddEmployee.WithTheData(Driver, "Juan", "juan@gmail.com","MTV","598752022");
+            AddEmployee.WithTheData(Driver, "Juan", "juan@gmail.com", "MTV", "598752022");
             Assert.IsTrue(AcceptAlert.Success(Driver));
-        }        
+        }
     }
 }

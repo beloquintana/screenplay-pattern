@@ -1,18 +1,13 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ScreenPlay.Test
 {
     public class BaseTest
     {
         protected IWebDriver Driver;
-        protected string Url = "http://verstandqa.com/ejercicios/";
+        protected string Url = "https://testfaceclub.com/ejercicios/";
 
         [SetUp]
         public void SetUpBase()
