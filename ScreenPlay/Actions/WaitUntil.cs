@@ -18,7 +18,6 @@ namespace ScreenPlay.Actions
             {
                 return false;
             }
-
         }
     }
 }
